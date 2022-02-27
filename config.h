@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char* font   = "mono:pixelsize=12:antialias=true:autohint=true";
-static char* font   = "monospace:pixelsize=12";
+static char* font   = "monospace:pixelsize=16";
 static int borderpx = 2;
 
 /*
@@ -105,7 +105,7 @@ float alpha = 0.85;
  * foreground, background, cursor, reverse cursor
  */
 /* colors */
-#include "colors-st.h"
+#include "colors-wal-st.h"
 
 /*
  * Default shape of cursor
